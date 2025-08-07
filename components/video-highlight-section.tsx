@@ -94,9 +94,7 @@ export default function PortfolioSection() {
           {portfolioItems.map((item) => (
             <div
               key={item.id}
-              className={`group relative aspect-square overflow-hidden rounded-2xl shadow-2xl transform transition-all duration-700 hover:scale-105 ${
-                isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-              }`}
+              className={`group relative aspect-square overflow-hidden rounded-2xl shadow-2xl transform transition-all duration-700 hover:scale-105 `}
               style={{ transitionDelay: item.delay }}
             >
               {/* Project Image */}
