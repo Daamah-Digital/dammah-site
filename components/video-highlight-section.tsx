@@ -78,9 +78,7 @@ export default function PortfolioSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <div
-            className={`transform transition-all duration-1000 ${
-              isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
+            className={`transform transition-all duration-1000 `}
           >
             <h2 className="text-3xl md:text-5xl font-bold mb-6">أحدث أعمالنا</h2>
             <p className="text-xl opacity-90 leading-relaxed">
